@@ -10,6 +10,9 @@ const array = [1, 'Hello there..', {name: 'Obi-Wan'}, true]
 function add(num1,num2){
     return num1 + num2
 }
+function multiply(num1, num2){
+    return num1 * num2
+}
 
 
 module.exports = {
@@ -18,5 +21,6 @@ module.exports = {
     isCool,
     obj,
     array,
-    add
+    add,
+    multiply
 }
